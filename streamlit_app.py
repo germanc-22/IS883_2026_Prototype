@@ -14,5 +14,5 @@ MODEL = "gemini-3.1-flash-lite"
 
 st.write("Press the button to say hello")
 if st.button("Press me!"):
-    st.write(client.models.generate_content(model=MODEL, contents="Tell me which two teams are going up in Colombia's second division").text)
+    st.write(client.models.generate_content(model=MODEL, contents="Who is winning the premier league this season?").text)
 
